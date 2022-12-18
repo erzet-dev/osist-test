@@ -201,13 +201,13 @@ Harus salah satu dari berikut ini:
 - **style**: Perubahan yang tidak memengaruhi arti kode (spasi putih, pemformatan, titik koma hilang, dll)
 - **test**: Menambahkan tes yang hilang atau mengoreksi tes yang ada
 
-#### Lingkup
+#### Scope
 
 Cakupannya harus nama paket npm yang terpengaruh (seperti yang dirasakan oleh orang yang membaca log perubahan yang dihasilkan dari pesan commit.
 
 Berikut ini adalah daftar cakupan yang didukung:
 
-- [nama fitur utama]
+- [nama fitur]
 - [nama service]
 - [package]
 
