@@ -16,7 +16,7 @@ repository:
   topics: siakad, sekolah
 
   # Either `true` to make the repository private, or `false` to make it public.
-  private: false
+  private: true
 
   # Either `true` to enable issues for this repository, `false` to disable them.
   has_issues: true
@@ -29,10 +29,10 @@ repository:
   has_wiki: false
 
   # Either `true` to enable downloads for this repository, `false` to disable them.
-  has_downloads: true
+  has_downloads: false
 
   # Updates the default branch for this repository.
-  default_branch: master
+  default_branch: main
 
   # Either `true` to allow squash-merging pull requests, or `false` to prevent
   # squash-merging.
