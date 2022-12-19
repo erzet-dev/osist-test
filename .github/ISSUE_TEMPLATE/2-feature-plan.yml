@@ -1,9 +1,7 @@
 name: 🚧 FEATURE PLAN
 description: Ajukan Rencana Fitur (Hanya tim developer yang akan direspon)
-title: '[PLAN]: <title>'
+title: '[PLAN-<MAIN/SUB>]: <title>'
 labels: ['FEATURE 🚩', 'Status: ToDo']
-assignees:
-  - fahrizalm14
 body:
   - type: input
     id: name
@@ -15,11 +13,11 @@ body:
       required: true
 
   - type: input
-    id: main
+    id: mention
     attributes:
-      label: Apakah termasuk fitur utama?
-      description: Jika bukan fitur utama silahkan masukan "nama fitur utama", jika bukan silahkan skip.
-      placeholder: 'eg: Sistem Pembayaran'
+      label: Mention Fitur Utama
+      description: Jika sub feature silahkan mention fitur utama, jika bukan silahkan abaikan
+      placeholder: 'eg: #1 Sistem Login'
     validations:
       required: false
 
